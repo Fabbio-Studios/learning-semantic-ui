@@ -1,0 +1,44 @@
+/* Limita o tamanho das imagens dentro dos cards */
+.ui.card .image img {
+    max-width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+body {
+    font-family: 'Comfortaa', sans-serif;
+}
+
+/* Se precisar de variações específicas da fonte */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: 700;
+}
+
+p, a {
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: 300;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Menu vermelho carmesim */
+.ui.menu.crimson {
+    background-color: #dc143c; /* Vermelho carmesim */
+}
+
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    background-color: #dc143c; /* Mesma cor do menu */
+    color: #fff;
+}
+
+/* Mostra o botão de subir a página ao rolar para baixo */
+#back-to-top.show {
+    display: block;
+}
